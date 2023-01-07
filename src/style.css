@@ -36,6 +36,10 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.table-responsive {
+  overflow-x: auto;
+}
+
 .embed {
   width: 100%;
   aspect-ratio: 1 /1;
@@ -262,5 +266,12 @@ footer a {
 
   .embed {
     aspect-ratio: 16 / 9;
+  }
+
+  .table-responsive {
+    margin: auto;
+    width: 50%;
+    border: 3px solid;
+    padding: 10px;
   }
 }
