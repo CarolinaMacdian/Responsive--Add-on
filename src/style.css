@@ -176,4 +176,13 @@ footer a {
   section {
     padding: 30px;
   }
+
+  main {
+    text-align: center;
+  }
+
+  main h3 {
+    font-size: 16px;
+    margin-top: 15px;
+  }
 }
