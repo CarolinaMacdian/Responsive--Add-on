@@ -9,13 +9,18 @@ body {
   margin: 0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 
 .grid-2-columns {
@@ -28,6 +33,15 @@ body {
 
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
 }
 
 .card {
@@ -239,5 +253,13 @@ footer a {
   main h3 {
     font-size: 16px;
     margin-top: 15px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
