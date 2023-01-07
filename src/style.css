@@ -21,6 +21,7 @@ body {
 .img-responsive {
   width: 100%;
   display: block;
+  filter: brightness(110%) contrast(130%);
 }
 
 .grid-2-columns {
